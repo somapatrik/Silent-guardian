@@ -1,0 +1,54 @@
+{
+    "Endpoint": [
+        {
+            "name": "Test google.com",
+            "description": "www.google.com",
+            "location" : "google.com"
+        },
+        {
+            "name": "Test seznam",
+            "description": "www.seznam.cz",
+            "location" : "seznam.cz"
+        },
+        {
+            "name": "Test fail",
+            "description": "Fail",
+            "location" : "123.123.123.250"
+        },
+        {
+            "name": "Test 4 fail",
+            "description": "Fail",
+            "location" : "123.123.123.255"
+        },
+        {
+            "name": "Test google.com",
+            "description": "www.google.com",
+            "location" : "google.com"
+        },
+        {
+            "name": "Test seznam",
+            "description": "www.seznam.cz",
+            "location" : "seznam.cz"
+        },
+        {
+            "name": "Test fail",
+            "description": "Fail",
+            "location" : "123.123.123.250"
+        },
+        {
+            "name": "Test google.com",
+            "description": "www.google.com",
+            "location" : "google.com"
+        },
+        {
+            "name": "Test seznam",
+            "description": "www.seznam.cz",
+            "location" : "seznam.cz"
+        },
+        {
+            "name": "Test fail",
+            "description": "Fail",
+            "location" : "123.123.123.250"
+        }
+    ]
+}
