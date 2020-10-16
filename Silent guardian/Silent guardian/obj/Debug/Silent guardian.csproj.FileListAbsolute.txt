@@ -20,4 +20,3 @@ D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debu
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csprojAssemblyReference.cache
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Styles.baml
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GeneratedInternalTypeHelper.g.cs

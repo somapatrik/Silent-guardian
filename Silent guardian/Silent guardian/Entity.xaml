@@ -13,17 +13,21 @@
 
     <Grid x:Name="entitygrid" Style="{StaticResource entityfull}">
         <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
-                    <Label x:Name="lblname" Content="Name" Style="{StaticResource entitytop}"/>
-                </Viewbox>
-        <Viewbox Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right">
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left">
             <Label x:Name="lbllocation" Content="Location" Style="{StaticResource entitybottom}" />
+        </Viewbox>
+        <Viewbox Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+            <Label x:Name="lblname" Content="Name" Style="{StaticResource entitytop}"/>
+        </Viewbox>
+        <Viewbox Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right">
+            <Label x:Name="lbltime" Style="{StaticResource entitybottom}" />
         </Viewbox>
     </Grid>
 </UserControl>

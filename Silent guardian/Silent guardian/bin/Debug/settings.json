@@ -1,54 +1,34 @@
 {
-    "Endpoint": [
-        {
-            "name": "Test google.com",
-            "description": "www.google.com",
-            "location" : "google.com"
-        },
-        {
-            "name": "Test seznam",
-            "description": "www.seznam.cz",
-            "location" : "seznam.cz"
-        },
-        {
-            "name": "Test fail",
-            "description": "Fail",
-            "location" : "123.123.123.250"
-        },
-        {
-            "name": "Test 4 fail",
-            "description": "Fail",
-            "location" : "123.123.123.255"
-        },
-        {
-            "name": "Test google.com",
-            "description": "www.google.com",
-            "location" : "google.com"
-        },
-        {
-            "name": "Test seznam",
-            "description": "www.seznam.cz",
-            "location" : "seznam.cz"
-        },
-        {
-            "name": "Test fail",
-            "description": "Fail",
-            "location" : "123.123.123.250"
-        },
-        {
-            "name": "Test google.com",
-            "description": "www.google.com",
-            "location" : "google.com"
-        },
-        {
-            "name": "Test seznam",
-            "description": "www.seznam.cz",
-            "location" : "seznam.cz"
-        },
-        {
-            "name": "Test fail",
-            "description": "Fail",
-            "location" : "123.123.123.250"
-        }
-    ]
+  "Endpoint": [
+    {
+      "name": "Tread 1 OP",
+      "description": "",
+      "location": "172.15.12.61"
+    },
+    {
+      "name": "Tread 1 Winder",
+      "description": "",
+      "location": "172.15.12.121"
+    },
+    {
+      "name": "Tread 2 OP",
+      "description": "",
+      "location": "172.15.12.62"
+    },
+    {
+      "name": "Tread 2 Winder",
+      "description": "",
+      "location": "172.15.12.122"
+    },
+    {
+      "name": "Sidewall OP",
+      "description": "",
+      "location": "172.15.12.131"
+    },
+    {
+      "name": "Sidewall Winder",
+      "description": "",
+      "location": "172.15.12.141"
+    }
+  ]
 }

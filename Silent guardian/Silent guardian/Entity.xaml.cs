@@ -35,7 +35,7 @@ namespace Silent_guardian
 
             timer = new System.Timers.Timer();
             timer.Elapsed += Timer_Elapsed;
-            timer.Interval = 2000;
+            timer.Interval = 30000;
 
 
             this.endpoint = endpoint;
@@ -52,6 +52,7 @@ namespace Silent_guardian
 
         public void StartTest()
         {
+            this.Timer_Elapsed(this, null);
             timer.Enabled = true;      
         }
 
@@ -77,7 +78,12 @@ namespace Silent_guardian
                     {
                         entitygrid.Style = IsConnected ? Resources["entityfullOK"] as Style : Resources["entityfullNOK"] as Style;
                     }
-               );
+                    );
+
+                    lbltime.Dispatcher.Invoke(() =>
+                    {
+                        lbltime.Content = IsConnected ? DateTime.Now.ToString("HH:mm:ss") : lbltime.Content; 
+                    });
                 } catch (Exception ex)
                 {
                     entitygrid.Dispatcher.Invoke(() =>

@@ -22,7 +22,7 @@ namespace Silent_guardian
     {
 
         string settings = "settings.json";
-        int max_columns = 7;
+        int max_columns = 10;
         int max_rows = 5;
 
         List<Entity> Entities;
@@ -30,7 +30,7 @@ namespace Silent_guardian
         {
             InitializeComponent();
             GetObjects();
-            CreateGrid();
+           // CreateGrid();
             PopulateGrid();
             StartTest();
         }
@@ -51,12 +51,13 @@ namespace Silent_guardian
             {
 
                 MainGrid.Children.Add(entity);
-                Grid.SetColumn(entity, c);
-                Grid.SetRow(entity, r);
 
-                c = c < max_columns ? c+1 : 0;
-                r = c == max_columns ? r+1 : r;
+                //Grid.SetColumn(entity, c);
+                //c = c < max_columns ? c + 1 : 0;
 
+                //Grid.SetRow(entity, r);
+                //r = c == max_columns ? r + 1 : r;
+                //c = c == max_columns ? 0 : c;
             }
         }
 
@@ -66,15 +67,15 @@ namespace Silent_guardian
             for (int r = 0; r < max_rows; r++)
             {
                 RowDefinition row = new RowDefinition();
-                row.Height = new GridLength(1, GridUnitType.Star);
-                MainGrid.RowDefinitions.Add(new RowDefinition());
+                //row.Height = new GridLength(70, GridUnitType.Pixel);
+               // MainGrid.RowDefinitions.Add(new RowDefinition());
             }
 
             for (int c = 0; c < max_columns; c++)
             {
                 ColumnDefinition col = new ColumnDefinition();
-                col.Width = new GridLength(2, GridUnitType.Star);
-                MainGrid.ColumnDefinitions.Add(new ColumnDefinition());
+              //  col.Width = new GridLength(120, GridUnitType.Pixel);
+               //MainGrid.ColumnDefinitions.Add(new ColumnDefinition());
             }
         }
 
