@@ -1,0 +1,75 @@
+{
+    "Group" : 
+        [
+            {
+                "Name": "Extrudion",
+                "Endpoint": [
+                                {
+                                    "name": "Tread 1 OP",
+                                    "description": "",
+                                    "location": "172.15.12.61"
+                                },
+                                {
+                                    "name": "Tread 1 Winder",
+                                    "description": "",
+                                    "location": "172.15.12.121"
+                                },
+                                {
+                                    "name": "Tread 2 OP",
+                                    "description": "",
+                                    "location": "172.15.12.62"
+                                },
+                                {
+                                    "name": "Tread 2 Winder",
+                                    "description": "",
+                                    "location": "172.15.12.122"
+                                },
+                                {
+                                    "name": "Sidewall OP",
+                                    "description": "",
+                                    "location": "172.15.12.131"
+                                },
+                                {
+                                    "name": "Sidewall Winder",
+                                    "description": "",
+                                    "location": "172.15.12.141"
+                                }
+                            ]
+            },
+            {
+                "Name": "Extrudion",
+                "Endpoint": [
+                                {
+                                    "name": "Tread 1 OP",
+                                    "description": "",
+                                    "location": "172.15.12.61"
+                                },
+                                {
+                                    "name": "Tread 1 Winder",
+                                    "description": "",
+                                    "location": "172.15.12.121"
+                                },
+                                {
+                                    "name": "Tread 2 OP",
+                                    "description": "",
+                                    "location": "172.15.12.62"
+                                },
+                                {
+                                    "name": "Tread 2 Winder",
+                                    "description": "",
+                                    "location": "172.15.12.122"
+                                },
+                                {
+                                    "name": "Sidewall OP",
+                                    "description": "",
+                                    "location": "172.15.12.131"
+                                },
+                                {
+                                    "name": "Sidewall Winder",
+                                    "description": "",
+                                    "location": "172.15.12.141"
+                                }
+                            ]
+            }
+        ]
+}

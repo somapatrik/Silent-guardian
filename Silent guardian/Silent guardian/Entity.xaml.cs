@@ -24,11 +24,6 @@ namespace Silent_guardian
         public Endpoint endpoint;
         System.Timers.Timer timer;
 
-        //public Entity()
-        //{
-        //    InitializeComponent();
-        //}
-
         public Entity(Endpoint endpoint)
         {
             InitializeComponent();

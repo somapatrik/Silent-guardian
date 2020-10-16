@@ -1,0 +1,51 @@
+
+{
+    "Groups": [
+        {
+            "id": 1,
+            "name": "Extrudion"
+        },
+        {
+            "id": 2,
+            "name": "TBM"
+        }
+    ],
+    "Endpoint": [
+      {
+        "name": "Tread 1 OP",
+        "description": "",
+        "location": "172.15.12.61",
+        "group": "1"
+      },
+      {
+        "name": "Tread 1 Winder",
+        "description": "",
+        "location": "172.15.12.121",
+        "group": "1"
+      },
+      {
+        "name": "Tread 2 OP",
+        "description": "",
+        "location": "172.15.12.62",
+        "group": "1"
+      },
+      {
+        "name": "Tread 2 Winder",
+        "description": "",
+        "location": "172.15.12.122",
+        "group": "1"
+      },
+      {
+        "name": "Sidewall OP",
+        "description": "",
+        "location": "172.15.12.131",
+        "group": "1"
+      },
+      {
+        "name": "Sidewall Winder",
+        "description": "",
+        "location": "172.15.12.141",
+        "group": "1"
+      }
+    ]
+  }

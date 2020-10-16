@@ -27,4 +27,17 @@
     <Style x:Key="entityfullNOK" TargetType="Grid" BasedOn="{StaticResource entityfull}">
         <Setter Property="Background" Value="IndianRed"/>
     </Style>
+
+    <Style x:Key="SystemButton" TargetType="Label">
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="16px"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FF374255"/>
+                <Setter Property="Cursor" Value="Hand"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
 </ResourceDictionary>
