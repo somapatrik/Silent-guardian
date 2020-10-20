@@ -14,8 +14,9 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30px"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
+        
         <Grid Grid.Row="0">
             
             <Grid.ColumnDefinitions>
@@ -31,7 +32,9 @@
             <Label Grid.Column="4" Content="X" Style="{StaticResource SystemButton}"/>
         </Grid>
         
-        <UniformGrid Grid.Row="1" x:Name="MainGrid">
-        </UniformGrid>
+            <!--<StackPanel Grid.Row ="1" x:Name="GroupGrid" Orientation="Vertical"/>-->
+            <!--<UniformGrid Grid.Row="1" x:Name="GroupGrid"/>-->
+            <Grid Grid.Row="1" x:Name="GroupGrid"/>
     </Grid>
+    
 </Window>

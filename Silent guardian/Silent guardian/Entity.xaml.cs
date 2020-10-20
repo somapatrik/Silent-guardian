@@ -32,7 +32,6 @@ namespace Silent_guardian
             timer.Elapsed += Timer_Elapsed;
             timer.Interval = 30000;
 
-
             this.endpoint = endpoint;
             lblname.Content = string.IsNullOrEmpty(endpoint.name) ? "[No name]" : endpoint.name;
             lbllocation.Content = string.IsNullOrEmpty(endpoint.location) ? "[No location]" : endpoint.location;

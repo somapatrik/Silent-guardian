@@ -3,32 +3,44 @@
     {
       "name": "Tread 1 OP",
       "description": "",
-      "location": "172.15.12.61"
+      "location": "172.15.12.61",
+      "group":"EXT"
     },
     {
       "name": "Tread 1 Winder",
       "description": "",
-      "location": "172.15.12.121"
+      "location": "172.15.12.121",
+      "group":"EXT"
     },
     {
       "name": "Tread 2 OP",
       "description": "",
-      "location": "172.15.12.62"
+      "location": "172.15.12.62",
+      "group":"EXT"
     },
     {
       "name": "Tread 2 Winder",
       "description": "",
-      "location": "172.15.12.122"
+      "location": "172.15.12.122",
+      "group":"EXT"
     },
     {
       "name": "Sidewall OP",
       "description": "",
-      "location": "172.15.12.131"
+      "location": "172.15.12.131",
+      "group":"EXT"
     },
     {
       "name": "Sidewall Winder",
       "description": "",
-      "location": "172.15.12.141"
+      "location": "172.15.12.141",
+      "group":"EXT"
+    },
+    {
+      "name": "HBC01",
+      "description": "",
+      "location": "172.15.15.61",
+      "group":"CUT"
     }
   ]
 }

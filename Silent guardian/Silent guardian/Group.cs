@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Silent_guardian
 {
-    class Group
+    public class Group
     {
         public string Name { get; set; }
-        public int MyProperty { get; set; }
+        public List<Endpoint> endpoint { get; set; }
     }
 }

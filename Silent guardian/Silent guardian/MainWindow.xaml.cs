@@ -21,43 +21,41 @@ namespace Silent_guardian
     public partial class MainWindow : Window
     {
 
-        string settings = "settings.json";
+        string settings = "settings2.json";
         int max_columns = 10;
         int max_rows = 5;
 
-        List<Entity> Entities;
+        //List<Entity> Entities;
+        List<GroupControl> GroupControls;
+
         public MainWindow()
         {
             InitializeComponent();
             GetObjects();
            // CreateGrid();
             PopulateGrid();
-            StartTest();
+           // StartTest();
         }
 
         public void StartTest()
         {
-            foreach (Entity entity in Entities)
-            {
-                entity.StartTest();
-            }
+            //foreach (Entity entity in Entities)
+            //{
+            //    entity.StartTest();
+            //}
         }
 
         public void PopulateGrid()
         {
-            int r = 0, c = 0;
-
-            foreach (Entity entity in Entities)
+            int r = 0;
+            foreach (GroupControl group in GroupControls)
             {
-
-                MainGrid.Children.Add(entity);
-
-                //Grid.SetColumn(entity, c);
-                //c = c < max_columns ? c + 1 : 0;
-
-                //Grid.SetRow(entity, r);
-                //r = c == max_columns ? r + 1 : r;
-                //c = c == max_columns ? 0 : c;
+                RowDefinition row = new RowDefinition();
+                row.Height = new GridLength(1, GridUnitType.Star);
+                GroupGrid.RowDefinitions.Add(row);
+                GroupGrid.Children.Add(group);
+                Grid.SetRow(group, r);
+                r++;
             }
         }
 
@@ -82,18 +80,15 @@ namespace Silent_guardian
         public void GetObjects()
         {
             JObject FullConfig = JObject.Parse(File.ReadAllText(settings));
-            IList<JToken> endpoints = FullConfig["Endpoint"].Children().ToList();
+            IList<JToken> groups = FullConfig["Group"].Children().ToList();
 
-            // IList<Endpoint> EndPoints = new List<Endpoint>();
+            GroupControls = new List<GroupControl>();
 
-            Entities = new List<Entity>();
-
-            foreach (JToken jEndPoint in endpoints)
+            foreach (JToken jgroup in groups)
             {
-                Endpoint endpoint = jEndPoint.ToObject<Endpoint>();
-                Entity entity = new Entity(endpoint);
-                //entity.Style = Resources["entityfull"] as Style;
-                Entities.Add(entity);
+                Group group = jgroup.ToObject<Group>();
+                GroupControl groupControl = new GroupControl(group);
+                GroupControls.Add(groupControl);
             }
         }
     }
