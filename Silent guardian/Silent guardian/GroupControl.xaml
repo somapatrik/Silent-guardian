@@ -11,7 +11,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" x:Name="GroupName" Content="GroupName" />
+        <Label Grid.Row="0" x:Name="GroupName" Content="GroupName" MouseLeftButtonDown="GroupName_MouseLeftButtonDown" />
         <UniformGrid Grid.Row="1" x:Name="GroupGrid"/>
     </Grid>
 </UserControl>

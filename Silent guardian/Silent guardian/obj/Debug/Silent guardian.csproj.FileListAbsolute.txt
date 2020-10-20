@@ -23,3 +23,28 @@ D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debu
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.g.cs
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.baml
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings2.json
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings2.json
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe.config
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.pdb
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csprojAssemblyReference.cache
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Entity.g.cs
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.g.cs
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.g.cs
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\App.g.cs
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_Content.g.cs
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.cache
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.lref
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Entity.baml
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.baml
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.baml
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Styles.baml
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.g.resources
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent_guardian.Properties.Resources.resources
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.GenerateResource.cache
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CoreCompileInputs.cache
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CopyComplete
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
+C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb

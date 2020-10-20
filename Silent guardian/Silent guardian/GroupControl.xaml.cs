@@ -29,10 +29,15 @@ namespace Silent_guardian
             foreach (Endpoint endpoint in group.endpoint)
             {
                 Entity entity = new Entity(endpoint);
-                entity.StartTest();
                 GroupGrid.Children.Add(entity);
+                entity.StartTest();
             }
 
+        }
+
+        private void GroupName_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            GroupGrid.Visibility = GroupGrid.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
         }
     }
 }
