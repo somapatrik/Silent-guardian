@@ -11,9 +11,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <!--<StackPanel Orientation="Vertical">-->
-            <Label Grid.Row="0" x:Name="GroupName" Content="GroupName"/>
+        <Label Grid.Row="0" x:Name="GroupName" Content="GroupName" />
         <UniformGrid Grid.Row="1" x:Name="GroupGrid"/>
-        <!--</StackPanel>-->
     </Grid>
 </UserControl>

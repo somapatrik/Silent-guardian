@@ -1,6 +1,31 @@
 {
     "Group": [
         {
+            "Name": "Calender",
+            "Endpoint": [
+                {
+                    "name": "IL Calender",
+                    "description": "",
+                    "location": "172.15.13.71"
+                },
+                {
+                    "name": "Tape slitter",
+                    "description": "",
+                    "location": "172.15.13.81"
+                },
+                {
+                    "name": "Combi Cal SCAL",
+                    "description": "",
+                    "location": "172.15.13.62"
+                },
+                {
+                    "name": "Combi Cal TCAL",
+                    "description": "",
+                    "location": "172.15.13.61"
+                }
+            ] 
+        },
+        {
             "Name": "Extrudion",
             "Endpoint": [
                 {
@@ -42,6 +67,16 @@
                     "name": "HBC01",
                     "description": "",
                     "location": "172.15.15.61"
+                },
+                {
+                    "name": "HBC02",
+                    "description": "",
+                    "location": "172.15.15.62"
+                },
+                {
+                    "name": "MHBC01",
+                    "description": "",
+                    "location": "172.15.15.101"
                 }
             ]
         },

@@ -50,12 +50,12 @@ namespace Silent_guardian
             int r = 0;
             foreach (GroupControl group in GroupControls)
             {
-                RowDefinition row = new RowDefinition();
-                row.Height = new GridLength(1, GridUnitType.Star);
-                GroupGrid.RowDefinitions.Add(row);
+                //RowDefinition row = new RowDefinition();
+                //row.Height = new GridLength(1, GridUnitType.Star);
+                //GroupGrid.RowDefinitions.Add(row);
                 GroupGrid.Children.Add(group);
-                Grid.SetRow(group, r);
-                r++;
+                //Grid.SetRow(group, r);
+                //r++;
             }
         }
 
