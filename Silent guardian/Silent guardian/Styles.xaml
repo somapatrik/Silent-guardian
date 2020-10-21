@@ -19,6 +19,12 @@
 
     <Style x:Key="entityfullOK" TargetType="Grid" BasedOn="{StaticResource entityfull}">
         <Setter Property="Background" Value="LimeGreen"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="Lime"/>
+                <Setter Property="Cursor" Value="Hand"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <Style x:Key="entityfullNOK" TargetType="Grid" BasedOn="{StaticResource entityfull}">

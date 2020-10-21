@@ -21,7 +21,7 @@ namespace Silent_guardian
     public partial class MainWindow : Window
     {
 
-        string settings = "settings3.json";
+        string settings = "settings.json";
         int max_columns = 10;
         int max_rows = 5;
 

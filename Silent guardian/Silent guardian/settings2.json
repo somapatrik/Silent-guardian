@@ -1,124 +1,64 @@
 {
-    "Group": [
+  "Group": [
+    {
+      "Name": "Google",
+      "Endpoint": [
         {
-            "Name": "Calender",
-            "Endpoint": [
-                {
-                    "name": "IL Calender",
-                    "description": "",
-                    "location": "172.15.13.71"
-                },
-                {
-                    "name": "Tape slitter",
-                    "description": "",
-                    "location": "172.15.13.81"
-                },
-                {
-                    "name": "Combi Cal SCAL",
-                    "description": "",
-                    "location": "172.15.13.62"
-                },
-                {
-                    "name": "Combi Cal TCAL",
-                    "description": "",
-                    "location": "172.15.13.61"
-                }
-            ] 
+          "name": "Gmail",
+          "description": "",
+          "location": "mail.google.com"
         },
         {
-            "Name": "Extrudion",
-            "Endpoint": [
-                {
-                    "name": "Tread 1 OP",
-                    "description": "",
-                    "location": "172.15.12.61"
-                },
-                {
-                    "name": "Tread 1 Winder",
-                    "description": "",
-                    "location": "172.15.12.121"
-                },
-                {
-                    "name": "Tread 2 OP",
-                    "description": "",
-                    "location": "172.15.12.62"
-                },
-                {
-                    "name": "Tread 2 Winder",
-                    "description": "",
-                    "location": "172.15.12.122"
-                },
-                {
-                    "name": "Sidewall OP",
-                    "description": "",
-                    "location": "172.15.12.131"
-                },
-                {
-                    "name": "Sidewall Winder",
-                    "description": "",
-                    "location": "172.15.12.141"
-                }
-            ]
+          "name": "YouTube",
+          "description": "",
+          "location": "youtube.com"
         },
         {
-            "Name": "Cut",
-            "Endpoint": [
-                {
-                    "name": "HBC01",
-                    "description": "",
-                    "location": "172.15.15.61"
-                },
-                {
-                    "name": "HBC02",
-                    "description": "",
-                    "location": "172.15.15.62"
-                },
-                {
-                    "name": "MHBC01",
-                    "description": "",
-                    "location": "172.15.15.101"
-                }
-            ]
-        },
-        {
-            "Name": "Bead",
-            "Endpoint": [
-                {
-                    "name": "BG01",
-                    "description": "",
-                    "location": "172.15.14.71"
-                },
-                {
-                    "name": "BG01",
-                    "description": "",
-                    "location": "172.15.14.72"
-                },
-                {
-                    "name": "FF01",
-                    "description": "",
-                    "location": "172.15.14.111"
-                },
-                {
-                    "name": "FF02",
-                    "description": "",
-                    "location": "172.15.14.112"
-                },
-                {
-                    "name": "FF03",
-                    "description": "",
-                    "location": "172.15.14.113"
-                },
-                {
-                    "name": "FF04",
-                    "description": "",
-                    "location": "172.15.14.114"
-                },
-                {
-                    "name": "FF05",
-                    "description": "",
-                    "location": "172.15.14.115"
-                }
-            ]
+          "name": "Drive",
+          "description": "",
+          "location": "drive.google.com"
         }
-    ]
+      ]
+    },
+    {
+      "Name": "My network",
+      "Endpoint": [
+        {
+          "name": "Router",
+          "description": "",
+          "location": "192.168.0.1"
+        },
+        {
+          "name": "Me",
+          "description": "",
+          "location": "127.0.0.1"
+        },
+        {
+          "name": "Computer 2",
+          "description": "",
+          "location": "192.168.0.57"
+        }
+      ]
+    },
+    {
+      "Name": "Work",
+      "Endpoint": [
+        {
+          "name": "PC1",
+          "description": "",
+          "location": "172.23.121.26"
+        },
+        {
+          "name": "PC2",
+          "description": "",
+          "location": "172.23.121.27"
+        },
+        {
+          "name": "Server",
+          "description": "",
+          "location": "172.23.12.60"
+        }
+      ]
+    }
+  ]
 }

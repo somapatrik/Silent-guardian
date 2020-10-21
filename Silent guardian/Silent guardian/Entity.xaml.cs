@@ -36,6 +36,26 @@ namespace Silent_guardian
             lblname.Content = string.IsNullOrEmpty(endpoint.name) ? "[No name]" : endpoint.name;
             lbllocation.Content = string.IsNullOrEmpty(endpoint.location) ? "[No location]" : endpoint.location;
             lbllocation.ToolTip = string.IsNullOrEmpty(endpoint.description) ? "" : endpoint.description;
+
+            if (!string.IsNullOrEmpty(endpoint.leftaction))
+            {
+                entitygrid.MouseLeftButtonDown += Entitygrid_MouseLeftButtonDown;
+                endpoint.leftaction = endpoint.leftaction.Contains("{location}") ? endpoint.leftaction.Replace("{location}", endpoint.location) : endpoint.leftaction;                    
+            }
+
+        }
+
+        private void Entitygrid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ClickCount == 2) { 
+                System.Diagnostics.Process process = new System.Diagnostics.Process();
+                System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+                startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+                startInfo.FileName = "cmd.exe";
+                startInfo.Arguments = "/C " + endpoint.leftaction;
+                process.StartInfo = startInfo;
+                process.Start();
+            }
         }
 
         private async void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
