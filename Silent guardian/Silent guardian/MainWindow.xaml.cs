@@ -91,5 +91,48 @@ namespace Silent_guardian
                 GroupControls.Add(groupControl);
             }
         }
+
+        private void btnMin_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnMax_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            AdjustWindowSize();
+        }
+
+        private void btnClose_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void AdjustWindowSize()
+        {
+            if (this.WindowState == WindowState.Maximized)
+            {
+                this.WindowState = WindowState.Normal;
+                btnMax.Content = "^";
+            }
+            else
+            {
+                this.WindowState = WindowState.Maximized;
+                btnMax.Content = "\\/";
+            }
+
+        }
+
+        private void lblApp_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                if (e.ClickCount == 2)
+                {
+                    AdjustWindowSize();
+                }
+                else
+                {
+                    Application.Current.MainWindow.DragMove();
+                }
+        }
     }
 }

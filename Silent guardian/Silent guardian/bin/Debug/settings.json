@@ -1,6 +1,23 @@
 {
   "Group": [
     {
+      "Name": "Servers",
+      "Endpoint": [
+        {
+          "name": "DEVEL",
+          "description": "",
+          "location": "172.15.0.19",
+          "leftaction": "mstsc /v:{location}"
+        },
+        {
+          "name": "172.15.0.72",
+          "description": "",
+          "location": "172.15.0.72",
+          "leftaction": "mstsc /v:{location}"
+        }
+      ]
+    },
+    {
       "Name": "Mixing",
       "Endpoint": [
         {
@@ -239,6 +256,17 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         }
       ]
-    }
+    },
+    {
+      "Name": "Internet",
+      "Endpoint": [
+        {
+          "name": "8.8.8.8",
+          "description": "",
+          "location": "8.8.8.8",
+          "leftaction": ""
+        }
+      ]
+    },
   ]
 }

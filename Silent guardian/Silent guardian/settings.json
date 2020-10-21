@@ -1,6 +1,17 @@
 {
   "Group": [
     {
+      "Name": "Internet",
+      "Endpoint": [
+        {
+          "name": "8.8.8.8",
+          "description": "",
+          "location": "8.8.8.8",
+          "leftaction": ""
+        }
+      ]
+    },
+    {
       "Name": "Mixing",
       "Endpoint": [
         {
