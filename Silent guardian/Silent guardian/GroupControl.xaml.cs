@@ -35,9 +35,9 @@ namespace Silent_guardian
 
         }
 
-        private void GroupName_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            GroupGrid.Visibility = GroupGrid.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
-        }
+        //private void GroupName_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //{
+        //    GroupGrid.Visibility = GroupGrid.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
+        //}
     }
 }

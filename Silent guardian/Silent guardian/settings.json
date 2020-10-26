@@ -1,13 +1,13 @@
 {
   "Group": [
     {
-      "Name": "Internet",
+      "Name": "Servers",
       "Endpoint": [
         {
-          "name": "8.8.8.8",
+          "name": "Devel",
           "description": "",
-          "location": "8.8.8.8",
-          "leftaction": ""
+          "location": "172.15.0.19",
+          "leftaction": "mstsc /v:{location}"
         }
       ]
     },
@@ -114,6 +114,12 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
+          "name": "HBC01 LETOFF",
+          "description": "",
+          "location": "172.15.15.61",
+          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
+        },
+        {
           "name": "HBC02",
           "description": "",
           "location": "172.15.15.62",
@@ -137,7 +143,7 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
-          "name": "BG01",
+          "name": "BG02",
           "description": "",
           "location": "172.15.14.72",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
@@ -175,7 +181,7 @@
       ]
     },
     {
-      "Name": "TBM",
+      "Name": "TBM1",
       "Endpoint": [
         {
           "name": "TBM11",
@@ -212,7 +218,13 @@
           "description": "",
           "location": "172.15.16.116",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
+        }
+      ]
+    },
+    {
+      "Name": "TBM2",
+      "Endpoint": [
+        
         {
           "name": "TBM21",
           "description": "",
@@ -248,6 +260,17 @@
           "description": "",
           "location": "172.15.16.176",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
+        }
+      ]
+    },
+    {
+      "Name": "Internet",
+      "Endpoint": [
+        {
+          "name": "Internet",
+          "description": "",
+          "location": "8.8.8.8",
+          "leftaction": "\"C:\\Program Files\\Mozilla Firefox\\firefox.exe\""
         }
       ]
     }
