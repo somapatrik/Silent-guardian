@@ -4,7 +4,6 @@ D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Rele
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Release\Silent guardian.exe.config
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Release\Silent guardian.exe
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Release\Silent guardian.pdb
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Release\Silent guardian.csprojAssemblyReference.cache
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Release\Entity.g.cs
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Release\GroupControl.g.cs
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Release\MainWindow.g.cs
