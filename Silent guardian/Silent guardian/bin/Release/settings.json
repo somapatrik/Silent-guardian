@@ -64,7 +64,7 @@
       ]
     },
     {
-      "Name": "Tread 1",
+      "Name": "Extrudion",
       "Endpoint": [
         {
           "name": "Tread 1 OP",
@@ -79,44 +79,6 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
-          "name": "Tread 1 Bottom",
-          "description": "",
-          "location": "172.15.12.74",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 1 Chimney",
-          "description": "",
-          "location": "172.15.12.75",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 1 Low",
-          "description": "",
-          "location": "172.15.12.73",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 1 Top",
-          "description": "",
-          "location": "172.15.12.71",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 1 Upper",
-          "description": "",
-          "location": "172.15.12.72",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        }
-      ]
-    },
-    {
-      
-    },
-    {
-      "Name": "Tread 2",
-      "Endpoint": [
-        {
           "name": "Tread 2 OP",
           "description": "",
           "location": "172.15.12.62",
@@ -129,41 +91,6 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
-          "name": "Tread 2 Bottom",
-          "description": "",
-          "location": "172.15.12.79",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 2 Chimney",
-          "description": "",
-          "location": "172.15.12.80",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 2 Low",
-          "description": "",
-          "location": "172.15.12.78",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 2 Top",
-          "description": "",
-          "location": "172.15.12.76",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Tread 2 Upper",
-          "description": "",
-          "location": "172.15.12.77",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        }
-      ]
-    },
-    {
-      "Name": "Sidewall",
-      "Endpoint": [
-        {
           "name": "Sidewall OP",
           "description": "",
           "location": "172.15.12.131",
@@ -173,30 +100,6 @@
           "name": "Sidewall Winder",
           "description": "",
           "location": "172.15.12.141",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Sidewall Bottom",
-          "description": "",
-          "location": "172.15.12.139",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Sidewall Low",
-          "description": "",
-          "location": "172.15.12.138",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Sidewall Top",
-          "description": "",
-          "location": "172.15.12.136",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
-          "name": "Sidewall Upper",
-          "description": "",
-          "location": "172.15.12.137",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         }
       ]
@@ -351,6 +254,7 @@
     {
       "Name": "TBM2",
       "Endpoint": [
+        
         {
           "name": "TBM21",
           "description": "",
