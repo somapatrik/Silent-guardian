@@ -114,12 +114,6 @@
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
-          "name": "HBC01 LETOFF",
-          "description": "",
-          "location": "172.15.15.61",
-          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
-        },
-        {
           "name": "HBC02",
           "description": "",
           "location": "172.15.15.62",
