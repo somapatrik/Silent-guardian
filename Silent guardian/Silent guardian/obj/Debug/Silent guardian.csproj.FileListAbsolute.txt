@@ -48,3 +48,28 @@ C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Sile
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings3.json
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings2.json
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe.config
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.pdb
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csprojAssemblyReference.cache
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.g.cs
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.g.cs
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.g.cs
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\App.g.cs
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_Content.g.cs
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.cache
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.lref
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.baml
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.baml
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.baml
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Styles.baml
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.g.resources
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent_guardian.Properties.Resources.resources
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.GenerateResource.cache
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CoreCompileInputs.cache
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CopyComplete
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
+C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb

@@ -24,6 +24,8 @@ namespace Silent_guardian
         public Endpoint endpoint;
         System.Timers.Timer timer;
 
+        public bool result;
+
         public Entity(Endpoint endpoint)
         {
             InitializeComponent();
@@ -47,7 +49,8 @@ namespace Silent_guardian
 
         private void Entitygrid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (e.ClickCount == 2) { 
+            if (e.ClickCount == 2) 
+            { 
                 System.Diagnostics.Process process = new System.Diagnostics.Process();
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
@@ -60,8 +63,10 @@ namespace Silent_guardian
 
         private async void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            Task test = TestConnection();
-            await test;
+            //Task test = TestConnection();
+            timer.Enabled = false;
+            await Task.Run(TestConnection);
+            timer.Enabled = true;
         }
 
         public void StartTest()
@@ -70,43 +75,47 @@ namespace Silent_guardian
             timer.Enabled = true;      
         }
 
-        public void StopTest()
-        {
-            timer.Enabled = false;
-        }
+        //public void StopTest()
+        //{
+        //    timer.Enabled = false;
+        //}
 
-        public async Task TestConnection()
+        public void TestConnection()
         {
-            await Task.Run(() =>
+           // await Task.Run(() =>
+           // {
+            bool IsConnected = false;
+            try
             {
-                bool IsConnected = false;
-                try
+                Ping ping = new Ping();
+                PingReply reply = ping.Send(endpoint.location, 1000);
+
+                if (reply.Status == IPStatus.Success)
+                    IsConnected = true;
+
+                entitygrid.Dispatcher.Invoke(() =>
                 {
-                    Ping ping = new Ping();
-                    PingReply reply = ping.Send(endpoint.location, 5000);
-
-                    if (reply.Status == IPStatus.Success)
-                        IsConnected = true;
-
-                    entitygrid.Dispatcher.Invoke(() =>
-                    {
-                        entitygrid.Style = IsConnected ? Resources["entityfullOK"] as Style : Resources["entityfullNOK"] as Style;
-                    }
-                    );
-
-                    lbltime.Dispatcher.Invoke(() =>
-                    {
-                        lbltime.Content = IsConnected ? DateTime.Now.ToString("HH:mm:ss") : lbltime.Content; 
-                    });
-                } catch (Exception ex)
-                {
-                    entitygrid.Dispatcher.Invoke(() =>
-                    {
-                        entitygrid.Style = Resources["entityfull"] as Style;
-                    }
-                    );
+                    entitygrid.Style = IsConnected ? Resources["entityfullOK"] as Style : Resources["entityfullNOK"] as Style;
                 }
-            });
+                );
+
+                lbltime.Dispatcher.Invoke(() =>
+                {
+                    lbltime.Content = IsConnected ? DateTime.Now.ToString("HH:mm:ss") : lbltime.Content; 
+                });
+            } catch (Exception ex)
+            {
+                entitygrid.Dispatcher.Invoke(() =>
+                {
+                    entitygrid.Style = Resources["entityfull"] as Style;
+                }
+                );
+            }
+            finally
+            {
+                result = IsConnected;
+            }
+          //  });
         }
     }
 }
