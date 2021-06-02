@@ -46,7 +46,8 @@
         {
           "name": "PC1",
           "description": "",
-          "location": "172.23.121.26"
+          "location": "172.23.121.26",
+          "leftaction": "mstsc /v:{location}"
         },
         {
           "name": "PC2",
