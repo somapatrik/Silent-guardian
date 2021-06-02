@@ -50,7 +50,6 @@ C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Sile
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings3.json
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
-C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings2.json
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe.config
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.pdb
