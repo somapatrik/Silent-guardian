@@ -17,7 +17,7 @@
         {
           "name": "Mixer 1",
           "description": "",
-          "location": "172.15.11.61",
+          "location": "172.15.11.161",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
         },
         {
@@ -109,6 +109,12 @@
       "Endpoint": [
         {
           "name": "HBC01",
+          "description": "",
+          "location": "172.15.15.61",
+          "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
+        },
+        {
+          "name": "HBC01 LETOFF",
           "description": "",
           "location": "172.15.15.61",
           "leftaction": "\"C:\\Program Files (x86)\\uvnc bvba\\UltraVNC\\vncviewer.exe\" -host {location} -password P@ssw0rd -autoscaling"
