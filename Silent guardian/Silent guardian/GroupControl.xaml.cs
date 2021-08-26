@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,6 +21,7 @@ namespace Silent_guardian
 
         public Group group;
 
+       // Timer timer;
         public GroupControl(Group group)
         {
             InitializeComponent();
@@ -33,11 +35,31 @@ namespace Silent_guardian
                 entity.StartTest();
             }
 
+            //timer = new System.Threading.Timer(timer_elapsed);
+            //timer.Change(15000, 15000);
+
         }
 
-        //private void GroupName_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //private void timer_elapsed(object state)
         //{
-        //    GroupGrid.Visibility = GroupGrid.Visibility == Visibility.Collapsed ? Visibility.Visible : Visibility.Collapsed;
+        //    this.Dispatcher.Invoke(() => {
+
+        //        foreach (Entity entity in GroupGrid.Children)
+        //            if (!entity.result)
+        //            {
+        //                GroupName.Style = (Style)Resources["GroupNameNOK"];
+        //                break;
+        //            }
+        //            else
+        //            {
+        //                GroupName.Style = (Style)Resources["GroupName"];
+        //            }
+
+        //    });
+            
+
+
         //}
+       
     }
 }

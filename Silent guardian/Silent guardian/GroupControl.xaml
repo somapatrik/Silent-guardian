@@ -6,12 +6,15 @@
              xmlns:local="clr-namespace:Silent_guardian"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary Source="Styles.xaml"/>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label Grid.Row="0" x:Name="GroupName" Content="GroupName"/>
+        <Label Grid.Row="0" x:Name="GroupName" Content="GroupName" Style="{StaticResource GroupName}"/>
         <UniformGrid Grid.Row="1" x:Name="GroupGrid"/>
     </Grid>
 </UserControl>
