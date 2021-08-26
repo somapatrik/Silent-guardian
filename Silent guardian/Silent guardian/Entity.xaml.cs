@@ -30,7 +30,7 @@ namespace Silent_guardian
 
             timer = new System.Timers.Timer();
             timer.Elapsed += Timer_Elapsed;
-            timer.Interval = 5000;
+            timer.Interval = 30000;
 
             this.endpoint = endpoint;
             lblname.Content = string.IsNullOrEmpty(endpoint.name) ? "[No name]" : endpoint.name;
@@ -60,9 +60,8 @@ namespace Silent_guardian
 
         private async void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            //Task test = TestConnection();
-            // await test;
-            await Task.Run(TestConnection);
+            Task test = TestConnection();
+            await test;
         }
 
         public void StartTest()
@@ -76,10 +75,10 @@ namespace Silent_guardian
             timer.Enabled = false;
         }
 
-        public void TestConnection()
+        public async Task TestConnection()
         {
-          //  await Task.Run(() =>
-          //  {
+            await Task.Run(() =>
+            {
                 bool IsConnected = false;
                 try
                 {
@@ -107,7 +106,7 @@ namespace Silent_guardian
                     }
                     );
                 }
-          //  });
+            });
         }
     }
 }

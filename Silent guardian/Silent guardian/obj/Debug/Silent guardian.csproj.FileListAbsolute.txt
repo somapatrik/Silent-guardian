@@ -48,4 +48,3 @@ C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Sile
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings3.json
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.AssemblyReference.cache

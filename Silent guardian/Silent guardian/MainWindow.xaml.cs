@@ -25,19 +25,56 @@ namespace Silent_guardian
         int max_columns = 10;
         int max_rows = 5;
 
+        //List<Entity> Entities;
         List<GroupControl> GroupControls;
 
         public MainWindow()
         {
             InitializeComponent();
             GetObjects();
+           // CreateGrid();
             PopulateGrid();
+           // StartTest();
+        }
+
+        public void StartTest()
+        {
+            //foreach (Entity entity in Entities)
+            //{
+            //    entity.StartTest();
+            //}
         }
 
         public void PopulateGrid()
         {
+            int r = 0;
             foreach (GroupControl group in GroupControls)
+            {
+                //RowDefinition row = new RowDefinition();
+                //row.Height = new GridLength(1, GridUnitType.Star);
+                //GroupGrid.RowDefinitions.Add(row);
                 GroupGrid.Children.Add(group);
+                //Grid.SetRow(group, r);
+                //r++;
+            }
+        }
+
+        public void CreateGrid()
+        {
+            
+            for (int r = 0; r < max_rows; r++)
+            {
+                RowDefinition row = new RowDefinition();
+                //row.Height = new GridLength(70, GridUnitType.Pixel);
+               // MainGrid.RowDefinitions.Add(new RowDefinition());
+            }
+
+            for (int c = 0; c < max_columns; c++)
+            {
+                ColumnDefinition col = new ColumnDefinition();
+              //  col.Width = new GridLength(120, GridUnitType.Pixel);
+               //MainGrid.ColumnDefinitions.Add(new ColumnDefinition());
+            }
         }
 
         public void GetObjects()
