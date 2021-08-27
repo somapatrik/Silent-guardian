@@ -43,14 +43,12 @@ namespace Silent_guardian
         {
             JObject FullConfig = JObject.Parse(File.ReadAllText(settings));
             IList<JToken> groups = FullConfig["Group"].Children().ToList();
+
             if (FullConfig.ContainsKey("Rows"))
                 GroupGrid.Rows = int.Parse(FullConfig["Rows"].ToString());
 
-            if (FullConfig.ContainsKey("Rows"))
-                GroupGrid.Columns = int.Parse(FullConfig["Columns"].ToString());
-
-            string columns = FullConfig["Columns"].ToString();
-            
+            if (FullConfig.ContainsKey("Columns"))
+                GroupGrid.Columns = int.Parse(FullConfig["Columns"].ToString());            
 
             GroupControls = new List<GroupControl>();
 
