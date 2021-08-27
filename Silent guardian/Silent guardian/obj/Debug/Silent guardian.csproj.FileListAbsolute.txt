@@ -1,26 +1,3 @@
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe.config
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.pdb
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.g.cs
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.g.cs
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\App.g.cs
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_Content.g.cs
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.cache
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.lref
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.baml
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.baml
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.g.resources
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent_guardian.Properties.Resources.resources
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.GenerateResource.cache
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CoreCompileInputs.cache
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CopyComplete
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Styles.baml
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.g.cs
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.baml
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
 C:\Programování\Silent guardian\Silent guardian\Silent guardian\bin\Debug\settings2.json
@@ -70,4 +47,26 @@ C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardia
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CopyComplete
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
-D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.AssemblyReference.cache
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Newtonsoft.Json.dll
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\settings.json
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe.config
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.exe
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\bin\Debug\Silent guardian.pdb
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.g.cs
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.g.cs
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.g.cs
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\App.g.cs
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_Content.g.cs
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.cache
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian_MarkupCompile.lref
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Entity.baml
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\GroupControl.baml
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\MainWindow.baml
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Styles.baml
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.g.resources
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent_guardian.Properties.Resources.resources
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.GenerateResource.cache
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CoreCompileInputs.cache
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.CopyComplete
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
