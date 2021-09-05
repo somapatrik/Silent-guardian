@@ -1,6 +1,8 @@
 # Silent guardian
 Dashboard for network endpoints (PCs, servers,...). Ping visualization. Customisable click action. Easy to use.
 
+![Preview](https://github.com/somapatrik/Silent-guardian/blob/main/preview/preview.PNG)
+
 # settings.json example
 Json like this must be inside program´s directory. Rows and Columns set to 0 will generate them automatically. Ping timer is in milliseconds.
 
