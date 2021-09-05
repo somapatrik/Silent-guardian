@@ -1,6 +1,10 @@
 {
-  "Rows":  "5",
-  "Columns": "5",
+  "Rows": "0",
+  "Columns": "0",
+  "GroupRows": "0",
+  "GroupColumns": "0",
+  "PingTimer": "15000",
+
   "Group": [
     {
       "Name": "Google",

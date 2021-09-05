@@ -32,7 +32,8 @@ namespace Silent_guardian
 
             timer = new System.Timers.Timer();
             timer.Elapsed += Timer_Elapsed;
-            timer.Interval = 30000;
+
+            timer.Interval = GlobVars.PingTimer > 0 ? GlobVars.PingTimer: 30000;
 
             this.endpoint = endpoint;
             lblname.Content = string.IsNullOrEmpty(endpoint.name) ? "[No name]" : endpoint.name;

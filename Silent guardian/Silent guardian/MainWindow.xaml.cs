@@ -34,13 +34,14 @@ namespace Silent_guardian
         public void PopulateGrid()
         {
             foreach (GroupControl group in GroupControls)
-            {
                 GroupGrid.Children.Add(group);
-            }
         }
 
         public void GetObjects()
         {
+            int GroupRows = 0;
+            int GroupColumns = 0;
+
             JObject FullConfig = JObject.Parse(File.ReadAllText(settings));
             IList<JToken> groups = FullConfig["Group"].Children().ToList();
 
@@ -48,7 +49,16 @@ namespace Silent_guardian
                 GroupGrid.Rows = int.Parse(FullConfig["Rows"].ToString());
 
             if (FullConfig.ContainsKey("Columns"))
-                GroupGrid.Columns = int.Parse(FullConfig["Columns"].ToString());            
+                GroupGrid.Columns = int.Parse(FullConfig["Columns"].ToString());
+
+            if (FullConfig.ContainsKey("GroupRows"))
+                GroupRows = int.Parse(FullConfig["GroupRows"].ToString());
+
+            if (FullConfig.ContainsKey("GroupColumns"))
+                GroupColumns = int.Parse(FullConfig["GroupColumns"].ToString());
+
+            if (FullConfig.ContainsKey("PingTimer"))
+                GlobVars.PingTimer = int.Parse(FullConfig["PingTimer"].ToString());
 
             GroupControls = new List<GroupControl>();
 
@@ -56,6 +66,10 @@ namespace Silent_guardian
             {
                 Group group = jgroup.ToObject<Group>();
                 GroupControl groupControl = new GroupControl(group);
+
+                groupControl.Rows = GroupRows;
+                groupControl.Columns = GroupColumns;
+
                 GroupControls.Add(groupControl);
             }
         }
@@ -94,13 +108,9 @@ namespace Silent_guardian
         {
             if (e.ChangedButton == MouseButton.Left)
                 if (e.ClickCount == 2)
-                {
                     AdjustWindowSize();
-                }
                 else
-                {
                     Application.Current.MainWindow.DragMove();
-                }
         }
     }
 }

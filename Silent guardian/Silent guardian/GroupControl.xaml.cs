@@ -21,6 +21,15 @@ namespace Silent_guardian
 
         public Group group;
 
+        public int Rows
+        {
+            set { GroupGrid.Rows = value; }
+        }
+        public int Columns
+        {
+            set { GroupGrid.Columns = value; }
+        }
+
         public GroupControl(Group group)
         {
             InitializeComponent();
