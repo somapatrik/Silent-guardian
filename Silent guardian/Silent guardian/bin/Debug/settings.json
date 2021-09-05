@@ -7,6 +7,27 @@
 
   "Group": [
     {
+      "Name": "Work",
+      "Endpoint": [
+        {
+          "name": "PC1",
+          "description": "",
+          "location": "172.23.121.26",
+          "leftaction": "mstsc /v:{location}"
+        },
+        {
+          "name": "PC2",
+          "description": "",
+          "location": "172.23.121.27"
+        },
+        {
+          "name": "Server",
+          "description": "",
+          "location": "172.23.12.60"
+        }
+      ]
+    },
+    {
       "Name": "Google",
       "Endpoint": [
         {
@@ -43,27 +64,6 @@
           "name": "Computer 2",
           "description": "",
           "location": "192.168.0.57"
-        }
-      ]
-    },
-    {
-      "Name": "Work",
-      "Endpoint": [
-        {
-          "name": "PC1",
-          "description": "",
-          "location": "172.23.121.26",
-          "leftaction": "mstsc /v:{location}"
-        },
-        {
-          "name": "PC2",
-          "description": "",
-          "location": "172.23.121.27"
-        },
-        {
-          "name": "Server",
-          "description": "",
-          "location": "172.23.12.60"
         }
       ]
     }
