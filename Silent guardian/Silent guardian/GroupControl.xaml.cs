@@ -21,7 +21,6 @@ namespace Silent_guardian
 
         public Group group;
 
-       // Timer timer;
         public GroupControl(Group group)
         {
             InitializeComponent();
@@ -35,31 +34,7 @@ namespace Silent_guardian
                 entity.StartTest();
             }
 
-            //timer = new System.Threading.Timer(timer_elapsed);
-            //timer.Change(15000, 15000);
-
         }
-
-        //private void timer_elapsed(object state)
-        //{
-        //    this.Dispatcher.Invoke(() => {
-
-        //        foreach (Entity entity in GroupGrid.Children)
-        //            if (!entity.result)
-        //            {
-        //                GroupName.Style = (Style)Resources["GroupNameNOK"];
-        //                break;
-        //            }
-        //            else
-        //            {
-        //                GroupName.Style = (Style)Resources["GroupName"];
-        //            }
-
-        //    });
-            
-
-
-        //}
        
     }
 }

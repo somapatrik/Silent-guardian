@@ -20,9 +20,9 @@
             <RowDefinition Height="30px"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        
+
         <Grid Grid.Row="0">
-            
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0"/>
                 <ColumnDefinition Width="*"/>
@@ -37,8 +37,8 @@
             <Label x:Name="btnClose" Grid.Column="4" Content="X" Style="{StaticResource SystemButton}" MouseDown="btnClose_MouseDown"/>
         </Grid>
         
-            <UniformGrid Grid.Row="1" x:Name="GroupGrid"/>
-            <!--<Grid Grid.Row="1" x:Name="GroupGrid"/>-->
+        <UniformGrid x:Name="GroupGrid" Grid.Row="1"/>
+
     </Grid>
     
 </Window>

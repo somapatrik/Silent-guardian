@@ -63,7 +63,6 @@ namespace Silent_guardian
 
         private async void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            //Task test = TestConnection();
             timer.Enabled = false;
             await Task.Run(TestConnection);
             timer.Enabled = true;
@@ -75,15 +74,8 @@ namespace Silent_guardian
             timer.Enabled = true;      
         }
 
-        //public void StopTest()
-        //{
-        //    timer.Enabled = false;
-        //}
-
         public void TestConnection()
         {
-           // await Task.Run(() =>
-           // {
             bool IsConnected = false;
             try
             {
@@ -115,7 +107,6 @@ namespace Silent_guardian
             {
                 result = IsConnected;
             }
-          //  });
         }
     }
 }
