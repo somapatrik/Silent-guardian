@@ -3,6 +3,7 @@
   "Columns": "0",
   "GroupRows": "0",
   "GroupColumns": "0",
+  "PingTimer": "15000",
 
   "Group": [
     {
