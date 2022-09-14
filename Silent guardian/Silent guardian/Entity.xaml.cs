@@ -103,6 +103,8 @@ namespace Silent_guardian
                     entitygrid.Style = Resources["entityfull"] as Style;
                 }
                 );
+                FileLogger logs = new FileLogger();
+                logs.logError(ex);
             }
             finally
             {
