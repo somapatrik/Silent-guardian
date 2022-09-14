@@ -71,3 +71,4 @@ D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debu
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.exe
 D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.pdb
 C:\Code\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.AssemblyReference.cache
+D:\Code\Silent guardian\Silent-guardian\Silent guardian\Silent guardian\obj\Debug\Silent guardian.csproj.AssemblyReference.cache
