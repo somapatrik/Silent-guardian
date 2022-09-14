@@ -104,7 +104,7 @@ namespace Silent_guardian
                 }
                 );
                 FileLogger logs = new FileLogger();
-                logs.logError(ex);
+                logs.logError(ex.Message);
             }
             finally
             {

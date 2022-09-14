@@ -4,47 +4,23 @@ using System.IO;
 
 namespace Silent_guardian
 {
-    public class FileLogger
+    public static class FileLogger
     {
-        public void logError(Exception ex)
+        static object lockFile = new object();
+
+        public static void logError(string errorMsg)
         {
             var currentDate = DateTime.Now;
-            var monthName = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(currentDate.Month);
 
-            var root = AppDomain.CurrentDomain.BaseDirectory + "\\logs";
-            var yearPath = root + "\\" + currentDate.Year.ToString() + "\\";
-            var MonthPath = yearPath + currentDate.Year + "-" + monthName + "\\";
-            var errorFile = MonthPath + "ErrorLogs-" + String.Format("{0:d-M-yyyy}", currentDate.Date) + ".txt";
+            string LogPath = Path.Combine(AppContext.BaseDirectory,"log");
+            string LogName = currentDate.ToString("yyMMdd");
 
-            if (!Directory.Exists(root))
+            lock (lockFile) 
             {
-                Directory.CreateDirectory(root);
+                Directory.CreateDirectory(LogPath);
+                File.AppendAllText(Path.Combine(LogPath, LogName), "[" + "] " + errorMsg);
             }
-            if (!Directory.Exists(yearPath))
-            {
-                Directory.CreateDirectory(yearPath);
-            }
-            if (!Directory.Exists(MonthPath))
-            {
-                Directory.CreateDirectory(MonthPath);
-            }
-            if (!File.Exists(errorFile))
-            {
-                FileStream fs = File.Create(errorFile);
-                fs.Close();
-            }
-            using (StreamWriter sw = File.AppendText(errorFile))
-            {
-                sw.WriteLine();
-                sw.WriteLine("=============Error Logging ===========");
-                sw.WriteLine("===========Start============= " + currentDate);
-                sw.WriteLine("Error Message: ");
-                sw.WriteLine(ex.Message);
-                sw.WriteLine("Stack Trace: ");
-                sw.WriteLine(ex.StackTrace);
-                sw.WriteLine("===========End============= " + currentDate);
-                sw.WriteLine();
-            }
+
         }
     }
 }
