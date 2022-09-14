@@ -13,12 +13,12 @@ namespace Silent_guardian
             var currentDate = DateTime.Now;
 
             string LogPath = Path.Combine(AppContext.BaseDirectory,"log");
-            string LogName = currentDate.ToString("yyMMdd");
+            string LogName = currentDate.ToString("yyMMdd") +".txt";
 
             lock (lockFile) 
             {
                 Directory.CreateDirectory(LogPath);
-                File.AppendAllText(Path.Combine(LogPath, LogName), "[" + "] " + errorMsg);
+                File.AppendAllText(Path.Combine(LogPath, LogName), "[" + currentDate.ToString("HH:mm:ss") + "] " + errorMsg + Environment.NewLine);
             }
 
         }

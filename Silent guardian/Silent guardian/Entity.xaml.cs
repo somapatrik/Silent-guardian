@@ -80,11 +80,14 @@ namespace Silent_guardian
             bool IsConnected = false;
             try
             {
+
                 Ping ping = new Ping();
                 PingReply reply = ping.Send(endpoint.location, 1000);
 
                 if (reply.Status == IPStatus.Success)
                     IsConnected = true;
+                else
+                    FileLogger.logError("Failed ping: " + endpoint.location);
 
                 entitygrid.Dispatcher.Invoke(() =>
                 {
@@ -96,15 +99,17 @@ namespace Silent_guardian
                 {
                     lbltime.Content = IsConnected ? DateTime.Now.ToString("HH:mm:ss") : lbltime.Content; 
                 });
-            } catch (Exception ex)
+
+            } 
+            catch (Exception ex)
             {
                 entitygrid.Dispatcher.Invoke(() =>
                 {
                     entitygrid.Style = Resources["entityfull"] as Style;
                 }
                 );
-                FileLogger logs = new FileLogger();
-                logs.logError(ex.Message);
+
+                FileLogger.logError(ex.Message);
             }
             finally
             {
