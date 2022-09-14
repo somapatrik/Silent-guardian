@@ -83,6 +83,7 @@
     <Compile Include="Entity.xaml.cs">
       <DependentUpon>Entity.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FileLogger.cs" />
     <Compile Include="GlobVars.cs" />
     <Compile Include="Group.cs" />
     <Compile Include="GroupControl.xaml.cs">
